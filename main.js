@@ -79,3 +79,37 @@ $('.back-to-top').on('click', (e)=>{
 
 backToTop();
 
+const upAndDown = (selector)=>{
+    console.log(selector);
+
+    $('.animated').removeClass('active');
+
+
+
+$('.animated').waypoint({
+    handler(direction) {
+        if(direction==='down'){
+        
+
+            $(this.element).addClass('fadeInUp'); 
+            $(this.element).removeClass('fadeOutUp');
+
+
+        }
+        else if(direction==='up'){
+
+
+            $(this.element).removeClass('fadeInUp'); 
+            $(this.element).addClass('fadeOutUp');
+
+
+        }
+    },
+    offset: '70%',
+
+
+
+});
+
+}
+upAndDown();

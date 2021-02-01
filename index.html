@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,22 +8,25 @@
 
         <title>Hiroki Sebata | Portfolio</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="animate.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     </head>
     <body>
+ 
+
         <div class='wrap'>
-            <header><h1>Hiroki Sebata</header> 
-            <nav class='dropdown'>
-                    <button type='button' class='btn btn-dropdown-toggle light btn-light' data-toggle='dropdown'><h2>Menu</h2></button>
+            <a href="#" class="header navbar-brand"><header><h1>Hiroki Sebata</h1></header></a>
+            <div class='dropdown'>
+                    <button type='button' class='btn btn-dropdown-toggle btn-light' data-toggle='dropdown'>Menu</button>
                     <div class="dropdown-menu">
                         <a href="#about" class="dropdown-item">About</a>
                         <a href="#background" class="dropdown-item">Background</a>
                         <a href="#socialaccount" class="dropdown-item">Social Account</a>
                     </div>   
-            </nav>
-         </div>
-         <div class="wrap-slide ">
+            </div>
+        </div>
+        <div class="wrap-slide ">
              <ul class="slide">
                 <li><img src="img/1.png" alt="stare miasto" width="800" height="600"></li>
                 <li><img src="img/2.png" alt="bridge" width="800" height="600"></li>
@@ -33,35 +37,77 @@
              <a href="#" class="slide-control slide-control-prev  "><i class="fas fa-arrow-left"></i></a>
              <a href="#" class="slide-control slide-control-next  "><i class="fas fa-arrow-right"></i></a>
          
-            </div>
+        </div>
          
 
-        
-         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-             <a class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true">About</a>
-             <a class="nav-item nav-link" id="nav-story-tab" data-toggle="tab" href="#nav-story" role="tab" aria-controls="nav-story" aria-selected="false">Story</a>
-             <a class="nav-item nav-link" id="nav-motivation-tab" data-toggle="tab" href="#nav-motivation" role="tab" aria-controls="nav-motivation" aria-selected="false">Motivation</a>
-         </div>
-         <div class="tab-content " id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">goes here <br><br><br><br><br><br><br><br></div>
-            <div class="tab-pane fade" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab">goes here 232 </div>
-            <div class="tab-pane fade" id="nav-motivation" role="tabpanel" aria-labelledby="nav-motivation-tab">goes here 2322</div>
-        </div>
-        <h2>Background</h2>
-        <div id="background" class="row">
-            <div class="col-sm-3">
-                <p>study abroad thing</p>
+        <nav id="about"> 
+            <div class="nav nav-tabs animated" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true">About</a>
+                <a class="nav-item nav-link" id="nav-story-tab" data-toggle="tab" href="#nav-story" role="tab" aria-controls="nav-story" aria-selected="false">Story</a>
+                <a class="nav-item nav-link" id="nav-motivation-tab" data-toggle="tab" href="#nav-motivation" role="tab" aria-controls="nav-motivation" aria-selected="false">Motivation</a>
             </div>
-            <div class="col-sm-3">
-                <p>univerity thing</p>
-            </div>  
-            <div class="col-sm-6">
-                <p>certificate thing</p>
-                <a href="https://www.codecademy.com/profiles/hirokiSebata4972071140/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank"><img src="img/codecademy.png" alt="HTML course" width="250" height="200"></a>
-                <a href="https://www.codecademy.com/profiles/hirokiSebata4972071140/certificates/9a5bb1fc45b4281af1fffec93b0aaf05" target="_blank"><img src="img/codecademy1.png" alt="css course" width="250" height="200"></a>
-                <a href="https://skillcrush.com/blueprint/front-end-development-course/?hsCtaTracking=2a523887-7bc2-47c8-a84a-0536313ec597%7Cba580d7a-656a-45ea-affc-fb135ebac3ad" target="_blank"><img src="img/skillcrush.png" alt="web developer course" width="250" height="200"></a>
+        </nav>
+            <div class="tab-content  animated" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                    <p>
+                        Hi This is Hiroki, Currently looking for a job in Poland. 
+                        I’m a university student in Japan and <strong>my approximate graduation date is on 31st of March</strong>.  I will have <strong>working holiday visa </strong>to start stepping forward into tech world in Poland.
+                        I know how my future career will get tough but I never give up !
+                    </p>
+                    <div class="row image">
+                        <img class="col-sm-3" src="img/profile.jpg" alt="profile pic" width="300" height="auto">
+                        <img class="col-sm-3 offset-sm-1" src="img/profile1.jpeg" alt="profile pic 2" width="350" height="auto">
+                        <img class="offset-sm-1 col-sm-4 last-pic" src="img/profile2.jpeg" alt="profile pic 3" width="500" height="350">
+                    </div>
+                    <table class="table-stripped table-hover" style="margin-top: 50px;"> 
+                            <tr>
+                                <td>Hiroki Sebata(23)</td>
+                            </tr>
+                            <tr> 
+                                <td>Tokai University, Bachelor of Engineering, Aerospace engineering</td> 
+                            </tr>
+                            <tr>
+                                <td>email :<a href="mailto:sebasuta@gmail.com" class="mail" target="_blank">sebasuta@gmail.com</a> </td>
+                            </tr>
+                            <tr>
+                                <td>phone: <a href="tel:(+48)731916443" class="phone" >(+48)731916443</a>  </td>
+                            </tr>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab">goes here 232 </div>
+                <div class="tab-pane fade" id="nav-motivation" role="tabpanel" aria-labelledby="nav-motivation-tab">goes here 2322</div>
             </div>
-        </div>
+
+        <!--<nav>
+  <div class="nav nav-tabs animated" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+</div>-->
+
+        <section class="animated background">
+            <h2>Background</h2>
+            <div id="background" class="row animated">
+                <div class="col-sm-3">
+                    <p>study abroad thing</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>univerity thing</p>
+                </div>  
+                <div class="col-sm-6">
+                    <p>certificate thing</p>
+                    <a href="https://www.codecademy.com/profiles/hirokiSebata4972071140/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank"><img src="img/codecademy.png" alt="HTML course" width="250" height="200"></a>
+                    <a href="https://www.codecademy.com/profiles/hirokiSebata4972071140/certificates/9a5bb1fc45b4281af1fffec93b0aaf05" target="_blank"><img src="img/codecademy1.png" alt="css course" width="250" height="200"></a>
+                    <a href="https://skillcrush.com/blueprint/front-end-development-course/?hsCtaTracking=2a523887-7bc2-47c8-a84a-0536313ec597%7Cba580d7a-656a-45ea-affc-fb135ebac3ad" target="_blank"><img src="img/skillcrush.png" alt="web developer course" width="250" height="200"></a>
+                </div>
+            </div>
+        </section>
         <section class="socialize">
             <div class="socialNetwork row ">
                 <div class="col-sm-4 offset-sm-8">
@@ -78,8 +124,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
-                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-                <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="jquery.waypoints.min.js"></script>
+        <script src="main.js"></script>
      </body>
 </html>
         

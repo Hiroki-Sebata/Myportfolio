@@ -1,7 +1,30 @@
+html{
+
+    width: 100%;
+    height:auto;
+
+}
+body{
+    background-image: url('img/japan.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+
+}
+.animated{
+opacity: 0;
+}
+
+.header {
+    color: black;
+    text-transform: none;
+}
 .wrap{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+
 }
 .wrap-slide{
     position: relative;
@@ -9,6 +32,7 @@
     width: 800px;
     height: 600px;
     margin: 0 auto; /* align center*/
+    
 }
 .slide-control{
     display: block;
@@ -58,14 +82,20 @@
 }
 
 .tab-content{
-
+    background-color: #F1E5E2;
+    border-radius: 30px;
+    margin: 20px;
     padding: 20px;
 }
+
+
+
 #background{
     padding: 20px;
     margin: 10px;
-    border: solid 5px #FFBFB1;
-    border-radius: 10px;
+
+    background-color: #E5DDDB;
+    border-radius: 30px;
 }
 .socialize{
     display: none;
@@ -81,6 +111,7 @@
 .fa-arrow-circle-up{
     font-size: 40px;
     background-color: transparent;
+    color: white;
 
 }
 
@@ -96,4 +127,29 @@
 }
 .back-to-top:hover{
     opacity:1;
+}
+a img{
+    transition: transform 0.1s;
+}
+a img:hover{
+    transform: scale(1.1);
+}
+a .mail{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+.image img{
+
+    border-radius: 70px;
+    transition: transform 0.1s;
+
+
+
+}
+.image img:hover{
+    transform: scale(1.1);
+}
+.last-pic img{
+    align-items: center;
 }
