@@ -79,14 +79,10 @@ $('.back-to-top').on('click', (e)=>{
 
 backToTop();
 
-const upAndDown = (selector)=>{
-    console.log(selector);
 
     $('.animated').removeClass('active');
 
-
-
-$('.animated').waypoint({
+    $('.animated').waypoint({
     handler(direction) {
         if(direction==='down'){
         
@@ -105,11 +101,4 @@ $('.animated').waypoint({
 
         }
     },
-    offset: '70%',
-
-
-
-});
-
-}
-upAndDown();
+    offset: '70%',});
