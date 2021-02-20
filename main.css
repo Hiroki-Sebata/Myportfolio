@@ -146,9 +146,6 @@ a .mail{
 
     border-radius: 70px;
     transition: transform 0.5s;
-
-
-
 }
 .image img:hover{
     transform: scale(1.1);
