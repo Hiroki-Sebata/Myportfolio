@@ -92,13 +92,8 @@ backToTop();
 
 
         }
-        else if(direction==='up'){
+        
 
-
-            $(this.element).removeClass('fadeInUp'); 
-            $(this.element).addClass('fadeOutUp');
-
-
-        }
+        
     },
     offset: '70%',});
