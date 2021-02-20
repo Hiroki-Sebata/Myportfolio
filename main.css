@@ -9,9 +9,18 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 50px;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    line-height: 30px;
+    padding: 20px;
 
 }
+
 .animated{
 opacity: 0;
 }
@@ -166,3 +175,34 @@ a .mail{
     display: none;
 
 }
+.fade {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
