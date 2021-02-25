@@ -79,27 +79,6 @@ $('.back-to-top').on('click', (e)=>{
 
 backToTop();
 
-let slideIndex = 0;
-
-const showSlides = () =>{
-    let i;
-    let slides = document.getElementsByClassName('mySlides');
-
-    for(i=0; i < slides.length; i++){
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-
-    if(slideIndex > slides.length){
-        slideIndex = 1;
-    }
-    slides[slideIndex-1].style.display = "block";
-
-    setTimeout(showSlides, 4000);
-
-}
-showSlides();
-
 
     $('.animated').removeClass('active');
 
@@ -118,3 +97,25 @@ showSlides();
         
     },
     offset: '70%',});
+
+const duration = 500;
+const $title = $('.title');
+
+$title.css({
+    opacity:0,
+})
+    $('#projects').waypoint({
+        handler(direction){
+            $title.animate(
+                {
+                    opacity: 1,
+                    animation: 'fade-in-right ease 0.4s forwards',
+
+                    
+            }
+            )
+        },
+        
+    })
+
+   
